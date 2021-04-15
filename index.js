@@ -168,7 +168,9 @@ Use the getReviewsByRating function below to do the following:
 
  function getReviewByRating(array, rating) {
    return array.filter(rev => Math.floor(rev.rating) === rating);
-  }
+}
+
+console.log(getReviewByRating(reviews, 4));
 
 
 /* 💪💪💪💪💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪💪💪💪💪
